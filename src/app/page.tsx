@@ -16,8 +16,6 @@ const HomePage = async () => {
   const otherSections = data.slice(1);
   return (
     <div>
-      <Marquee />
-
       <div className="container mx-auto grid grid-cols-3 my-5">
         {/* News section */}
         <div className="col-span-2">

@@ -1,6 +1,5 @@
 import { NewsArticle } from "@/app/type";
 import NewsCard from "@/componets/NewsCard";
-import React from "react";
 
 const fetchPromise = async (categoryId: string) => {
   const res = await fetch(
